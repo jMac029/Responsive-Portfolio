@@ -1,0 +1,36 @@
+/*
+	CSS Styling for portfolio page
+*/
+
+.portfolio-gallery {
+	position: relative;
+}
+
+.portfolio-item {
+	float: left;
+	height: 200px;
+	width: 265px;
+	padding: 30px 25px 20px 0px;
+}
+
+.portfolio-item:hover {
+	opacity: .7;
+}
+
+p span {
+	color: #fff;
+	font-weight: normal;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 18px;
+}
+
+.portfolio-text {
+	position: absolute;
+	text-align: center;
+	margin-top: 130px;
+	width: 265px;
+	height: 60px;
+	background-color: #4aaaa5;
+}
