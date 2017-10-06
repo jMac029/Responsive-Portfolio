@@ -8,7 +8,7 @@
 
 /* Wrapper for all the content on the page and background image */
 .wrapper {
-	width:  auto;
+	width: auto;
 	margin: 0;
 	background-image: url('../images/noisy.png');
 }
