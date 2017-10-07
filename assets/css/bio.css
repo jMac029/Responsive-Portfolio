@@ -17,7 +17,7 @@
 }
 
 /* Responsive elements for Desktop Browsers */
-@media screen and (max-width: 980px) {
+@media only screen and (max-width: 980px) {
 
 	#bio-img {
 		height: 290px;
@@ -26,4 +26,20 @@
 		padding: 10px 10px 10px 0;
 	}
 
+}
+
+/* Responsive elements for Mobile Phone Browsers */
+@media only screen and (max-width: 640px) { 
+
+	#bio-img {
+		height: 460px;
+		width: 460px;
+		float: left;
+		padding: 10px 10px 10px 0;
+	}
+
+	.bio-text {
+		font-size: 14px;
+		line-height: 20px;
+	}
 }
