@@ -9,8 +9,8 @@
 
 .portfolio-item {
 	float: left;
-	max-height: 200px;
-	max-width: 265px;
+	height: 200px;
+	width: 265px;
 	padding: 30px 25px 20px 0px;
 }
 
@@ -39,10 +39,20 @@ p span {
 @media only screen and (max-width: 640px) {
 
 	.portfolio-item {
-	height: 100%;
-	width: 100%;
-
+		width: 100%;
+		padding: 10px 0 150px 0;
 	}
 
+	#portfolio-img {
+		width: 100%;
+	}
+	
+	.portfolio-text {
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		margin-top: 250px;
+
+	}
 
 }
