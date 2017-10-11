@@ -36,6 +36,7 @@ p span {
 	background-color: #4aaaa5;
 }
 
+/* Responsive Portfolio Gallery for Mobile Devices */
 @media only screen and (max-width: 640px) {
 
 	.portfolio-item {
